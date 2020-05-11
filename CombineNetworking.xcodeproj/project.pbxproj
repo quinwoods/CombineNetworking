@@ -15,6 +15,10 @@
 		37B1EEC224699A32005C3354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B1EEC024699A32005C3354 /* LaunchScreen.storyboard */; };
 		37B1EECB24699DCE005C3354 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B1EECA24699DCE005C3354 /* MovieResponse.swift */; };
 		37B1EECD24699DDB005C3354 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B1EECC24699DDB005C3354 /* Movie.swift */; };
+		37B1EED02469A0CF005C3354 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B1EECF2469A0CF005C3354 /* MovieViewModel.swift */; };
+		37B1EED22469A441005C3354 /* MovieDBAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B1EED12469A441005C3354 /* MovieDBAPI.swift */; };
+		37B1EED42469A4AF005C3354 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B1EED32469A4AF005C3354 /* APIClient.swift */; };
+		37B1EED72469A94E005C3354 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B1EED62469A94E005C3354 /* MoviesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		37B1EEC324699A32005C3354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37B1EECA24699DCE005C3354 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
 		37B1EECC24699DDB005C3354 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		37B1EECF2469A0CF005C3354 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		37B1EED12469A441005C3354 /* MovieDBAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDBAPI.swift; sourceTree = "<group>"; };
+		37B1EED32469A4AF005C3354 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		37B1EED62469A94E005C3354 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,8 @@
 		37B1EEB424699A2E005C3354 /* CombineNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				37B1EED52469A93A005C3354 /* View */,
+				37B1EECE2469A0BD005C3354 /* Networking */,
 				37B1EEC924699D85005C3354 /* Models */,
 				37B1EEB724699A2E005C3354 /* SceneDelegate.swift */,
 				37B1EEB524699A2E005C3354 /* AppDelegate.swift */,
@@ -87,6 +97,24 @@
 				37B1EECC24699DDB005C3354 /* Movie.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		37B1EECE2469A0BD005C3354 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				37B1EECF2469A0CF005C3354 /* MovieViewModel.swift */,
+				37B1EED12469A441005C3354 /* MovieDBAPI.swift */,
+				37B1EED32469A4AF005C3354 /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		37B1EED52469A93A005C3354 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37B1EED62469A94E005C3354 /* MoviesView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,8 +191,12 @@
 				37B1EEB624699A2E005C3354 /* AppDelegate.swift in Sources */,
 				37B1EECB24699DCE005C3354 /* MovieResponse.swift in Sources */,
 				37B1EEB824699A2E005C3354 /* SceneDelegate.swift in Sources */,
+				37B1EED42469A4AF005C3354 /* APIClient.swift in Sources */,
 				37B1EEBA24699A2E005C3354 /* ContentView.swift in Sources */,
 				37B1EECD24699DDB005C3354 /* Movie.swift in Sources */,
+				37B1EED22469A441005C3354 /* MovieDBAPI.swift in Sources */,
+				37B1EED72469A94E005C3354 /* MoviesView.swift in Sources */,
+				37B1EED02469A0CF005C3354 /* MovieViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
